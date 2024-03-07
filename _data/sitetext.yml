@@ -35,7 +35,7 @@ en: &DEFAULT_EN
     title: "Projects"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: projects
-    closebutton: "Close Project"
+    #closebutton: "Close Project"
 
   timeline:
     title: "Timeline"
