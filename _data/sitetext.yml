@@ -26,10 +26,10 @@ en: &DEFAULT_EN
         icon: fas fa-solar-panel #find more at https://fontawesome.com/icons
       - title: "Responsive Design"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-bolt-lightning
+        icon: fas fa-solar-panel
       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
         desc: "Your description here, full **Markdown** support"
-	icon: fab fa-city
+	icon: fas fa-solar-panel
 
   portfolio:
     title: "Portfolio"
