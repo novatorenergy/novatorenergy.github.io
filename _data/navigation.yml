@@ -13,8 +13,8 @@ en: &DEFAULT_EN
   nav:
     - title: "Services"
       section: services
-    - title: "Portfolio"
-      section: portfolio
+    - title: "Projects"
+      section: projects
     - title: "About"
       section: about
     - title: "Timeline"
@@ -34,14 +34,14 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
-# Spanish
+# Turksih
 # -------
-es: &DEFAULT_ES
+tr: &DEFAULT_ES
   nav:
-    - title: "Servicios"
-      section: servicios
-    - title: "Portafolio"
-      section: portafolio
+    - title: "Hizmetlerimiz"
+      section: hizmetlerimiz
+    - title: "Projelerimiz"
+      section: projelerimiz
     - title: "Sobre Nosotros"
       section: nosotros
     - title: "Cronología"
