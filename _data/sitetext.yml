@@ -23,14 +23,13 @@ en: &DEFAULT_EN
     list:
       - title: "E-Commerce"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fab fa-solar-panel #find more at https://fontawesome.com/icons
+        icon: fab fa-facebook-f #find more at https://fontawesome.com/icons
       - title: "Responsive Design"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fab fa-solar-panel
+        icon: fab fa-facebook-f
       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
         desc: "Your description here, full **Markdown** support"
-	icon: fab fa-solar-panel
-
+	icon: fab fa-facebook-f
   portfolio:
     title: "Portfolio"
     text: "Lorem ipsum dolor sit amet consectetur."
