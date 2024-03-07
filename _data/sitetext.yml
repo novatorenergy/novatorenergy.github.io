@@ -190,7 +190,7 @@ es: &DEFAULT_ES
         desc: "Su descripción aquí, soporte completo de **Markdown**"
         icon: fab fa-markdown
 
-  portfolio:
+  projects:
     title: "Portafolio"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portafolio
