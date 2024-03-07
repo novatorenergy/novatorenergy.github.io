@@ -14,7 +14,7 @@ en: &DEFAULT_EN
     - title: "Services"
       section: services
     - title: "Projects"
-      section: projects
+      section: Portfolio
     - title: "About"
       section: about
     - title: "Timeline"
@@ -38,10 +38,10 @@ en-AU:
 # -------
 tr: &DEFAULT_ES
   nav:
-    - title: "Hizmetlerimiz"
-      section: hizmetlerimiz
-    - title: "Projelerimiz"
-      section: projelerimiz
+    - title: "Servicios"
+      section: servicios
+    - title: "Portafolio"
+      section: portafolio
     - title: "Sobre Nosotros"
       section: nosotros
     - title: "Cronología"
