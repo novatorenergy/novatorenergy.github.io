@@ -31,10 +31,10 @@ en: &DEFAULT_EN
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-car-circle-bolt
 
-  portfolio:
+  projects:
     title: "Projects"
     text: "Lorem ipsum dolor sit amet consectetur."
-    section: Projects
+    section: projects
     closebutton: "Close Project"
 
   timeline:
