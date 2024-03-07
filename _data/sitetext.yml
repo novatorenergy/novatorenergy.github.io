@@ -193,7 +193,7 @@ es: &DEFAULT_ES
   projects:
     title: "Portafolio"
     text: "Lorem ipsum dolor sit amet consectetur."
-    section: portafolio
+    section: projectos
     closebutton: "Cerrar Proyecto"
 
   timeline:
