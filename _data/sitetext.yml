@@ -29,12 +29,8 @@ en: &DEFAULT_EN
         icon: fab fa-facebook-f
       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
         desc: "Your description here, full **Markdown** support"
-<<<<<<< HEAD
-	icon: fab fa-facebook-f
-=======
         icon: fab fa-car-circle-bolt
 
->>>>>>> parent of f576cc4 (logolar)
   portfolio:
     title: "Portfolio"
     text: "Lorem ipsum dolor sit amet consectetur."
