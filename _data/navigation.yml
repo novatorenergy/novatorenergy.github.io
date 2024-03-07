@@ -14,7 +14,7 @@ en: &DEFAULT_EN
     - title: "Services"
       section: services
     - title: "Projects"
-      section: Portfolio
+      section: Projects
     - title: "About"
       section: about
     - title: "Timeline"
@@ -34,9 +34,9 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
-# Turksih
+# Spanish
 # -------
-tr: &DEFAULT_ES
+es: &DEFAULT_ES
   nav:
     - title: "Servicios"
       section: servicios
