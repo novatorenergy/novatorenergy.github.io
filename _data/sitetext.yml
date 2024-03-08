@@ -15,21 +15,22 @@ en: &DEFAULT_EN
     text: It's Nice To Meet You
     button: Tell Me More
     buttonlink: "#services"
+    textcolor: "#3cb327"
 
   services:
     title: "Services"
     text: "Deneme"
     section: services
     list:
-      - title: "E-Commerce"
+      - title: "Renewables"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fab fa-facebook-f #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
+        icon: fas fa-solar-panel #find more at https://fontawesome.com/icons
+      - title: "Energy Storage"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fab fa-facebook-f
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+        icon: fas fa-battery-half
+      - title: "Engineering Solutions"
         desc: "Your description here, full **Markdown** support"
-        icon: fab fa-car-circle-bolt
+        icon: fas fa-wrench
 
   projects:
     title: "Projects"
