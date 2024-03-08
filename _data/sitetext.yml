@@ -32,10 +32,10 @@ en: &DEFAULT_EN
         desc: "Your description here, full **Markdown** support"
         icon: fas fa-wrench
 
-  projects:
+  portfolio:
     title: "Projects"
     text: "Lorem ipsum dolor sit amet consectetur."
-    section: projects
+    section: portfolio
     #closebutton: "Close Project"
 
   timeline:

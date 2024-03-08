@@ -5,7 +5,7 @@ black: "#000"
 green: "#3cb327"
 
 #Image Customization
-header-image: "../img/wind.jpg"
+header-image: "../img/wind-turbine-bg.gif"
 contact-image: "../img/map-image.png"
 
 #https://github.com/raviriley/agency-jekyll-theme/blob/master/_data/style.yml
