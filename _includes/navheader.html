@@ -50,6 +50,7 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
+        
 	  {%- if site.data.sitetext[site.locale].header.title -%}
         <div class="intro-lead-in">{{site.data.sitetext[site.locale].header.title | markdownify }}</div>
 	  {%- endif -%}
@@ -59,6 +60,9 @@
 	  {%- if site.data.sitetext[site.locale].header.button -%}
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{ site.data.sitetext[site.locale].header.button }}</a>
 	  {%- endif -%}
+    <video id="background-video">
+      <source src="https://static.vecteezy.com/system/resources/previews/002/408/902/mp4/3-wind-turbines-on-the-hill-side-at-sunset-free-video.mp4" type="video/mp4">
+    </video>
       </div>
     </div>
   </header>
@@ -75,6 +79,9 @@
 	  {%- if site.data.sitetext.header.button -%}
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.buttonlink }}">{{ site.data.sitetext.header.button }}</a>
 	  {%- endif -%}
+    <video id="background-video">
+      <source src="https://static.vecteezy.com/system/resources/previews/002/408/902/mp4/3-wind-turbines-on-the-hill-side-at-sunset-free-video.mp4" type="video/mp4">
+    </video>
       </div>
     </div>
   </header>

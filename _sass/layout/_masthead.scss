@@ -2,11 +2,13 @@
 header.masthead {
   text-align: center;
   color: green;
+
   background-image: url("#{$header-image}");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
@@ -47,4 +49,15 @@ header.masthead {
       }
     }
   }
+}
+#background-video {
+  width: 100vW;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
