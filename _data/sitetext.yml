@@ -15,7 +15,6 @@ en: &DEFAULT_EN
     text: It's Nice To Meet You
     button: Tell Me More
     buttonlink: "#services"
-    textcolor: "#3cb327"
 
   services:
     title: "Services"
