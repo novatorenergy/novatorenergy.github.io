@@ -49,30 +49,26 @@
   {% if site.locale and site.locale != "" and site.locale != nil %}
   <header class="masthead">
     <div class="container">
-      <video playsinline autoplay muted loop poster="../img/wind-turbine-bg.svg" id="bgvid">
+      <video playsinline autoplay muted loop poster="../img/wind-ai-bg.jpg" id="bgvid">
         <source src="https://static.vecteezy.com/system/resources/previews/002/408/902/mp4/3-wind-turbines-on-the-hill-side-at-sunset-free-video.mp4" type="video/mp4">
       </video>
       <div class="intro-text">
-
+    {%- if site.data.sitetext[site.locale].header.text -%}
+        <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
+	  {%- endif -%}
 	  {%- if site.data.sitetext[site.locale].header.title -%}
         <div class="intro-lead-in">{{site.data.sitetext[site.locale].header.title | markdownify }}</div>
-	  {%- endif -%}
-	  {%- if site.data.sitetext[site.locale].header.text -%}
-        <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
 	  {%- endif -%}
 	  {%- if site.data.sitetext[site.locale].header.button -%}
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{ site.data.sitetext[site.locale].header.button }}</a>
 	  {%- endif -%}
-
       </div>
-    
-    
     </div>
   </header>
   {% else %}
   <header class="masthead">
     <div class="container">
-      <video playsinline autoplay muted loop poster="../img/wind-turbine-bg.svg" id="bgvid">
+      <video playsinline autoplay muted loop poster="../img/wind-ai-bg.jpg" id="bgvid">
         <source src="https://static.vecteezy.com/system/resources/previews/002/408/902/mp4/3-wind-turbines-on-the-hill-side-at-sunset-free-video.mp4" type="video/mp4">
       </video>
       <div class="intro-text">
